@@ -16,5 +16,9 @@ window.addEventListener("scroll", () => {
     moon.style.left = value * 1.5 + 'px';
     birds.style.top = value * -1.5 + 'px';
     birds.style.left = value * -1.5 + 'px';
-    element3.style.left = value * -1.5 + 'px';
+    element2.style.left = value * 1.5 + 'px';
+    element3.style.left = value * -0.3 + 'px';
+    element4.style.left = value * 0.8 + 'px';
+    element5.style.top = value * 1 + 'px';
+    element6.style.top = value * 1.5 + 'px';
 });
