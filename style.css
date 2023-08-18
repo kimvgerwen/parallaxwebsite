@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #edc4b8;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo {
+    font-size: 2em;
+    color: #281f31;
+    pointer-events: none;
+    font-family: 'Borel', cursive;
+    margin-right: 500px;
+}
+
+.navigation a {
+    color: #281f31;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 800;
+    transition: all 0.4s ease-in;
+}
+
+.navigation a:hover {
+   background: #281f31;
+   color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+#text {
+    font-family: 'Lexend Deca', sans-serif;
+    position: absolute;
+    font-size: 6em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    filter: drop-shadow(0 -10 10px rgba(0, 0, 0, 0.1));
+}
+
+.aboutme {
+    position: relative;
+    background: #281f31;
+    padding: 100px;
+    z-index: 100;
+    height: 100vh;
+}
+
+.aboutme h2 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.aboutme p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: white;
+
+}
+
+ul {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: white;
+    list-style-type: none;
+}
+
+#moon {
+    position: absolute;
+    margin-top: 50px
+}
+
+.aboutme p, h2, ul {
+    margin-top: 20px;
+    width: 50%;
+    margin: auto;
+}
