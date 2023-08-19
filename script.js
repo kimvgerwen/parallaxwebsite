@@ -10,7 +10,6 @@ let element1 = document.getElementById("1");
 
 window.addEventListener("scroll", () => {
     let value = window.scrollY;
-
     moon.style.top = value * -1.5 + 'px';
     moon.style.left = value * 1.5 + 'px';
     birds.style.top = value * -1.5 + 'px';
